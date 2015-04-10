@@ -13,8 +13,16 @@ python << endOfPython
 
 from toggle_bool import toggle_bool_example
 
-for n in range(5):
-    print(toggle_bool_example())
+# get word under cursor
+wordUnderCursor = vim.eval('expand("<cword>")')
+
+if len(wordUnderCursor):
+  # get the toggle value of word under cursor
+  toggleValue = toggle_bool_example(wordUnderCursor)
+
+  # replace the current word with new toggled value
+  vim.command('normal caw%s' % toggleValue)
+  vim.command('normal b')
 
 endOfPython
 endfunction
