@@ -1,9 +1,6 @@
 values = {
         'false': 'true',
-        'False': 'True',
-
         'true': 'false',
-        'True': 'False',
 
         'on': 'off',
         'off': 'on',
@@ -15,9 +12,14 @@ values = {
         '0': '1'
         }
 
-def toggle_bool_example(word):
+def toggle_bool_value(word):
+    toggleWord = word
     for key in values.keys():
-      if key == word:
-        word = values[key]
+      if key == word.lower():
+        toggleWord = values[key]
+        if word.isupper():
+          toggleWord = toggleWord.upper()
+        elif word.istitle():
+          toggleWord = toggleWord.title()
         break
-    return word
+    return toggleWord
