@@ -1,0 +1,25 @@
+*toggle-bool.txt* A short multi line description of your plugin
+
+===============================================================================
+CONTENTS                                                          *toggle-bool*
+
+    1. Intro .............................................. |toggle-bool-intro|
+    2. Requirements ................................ |toggle-bool-requirements|
+    3. Usage .............................................. |toggle-bool-usage|
+    4. Licence .......................................... |toggle-bool-licence|
+===============================================================================
+1. Intro                                                    *toggle-bool-intro*
+
+Overview of plugin
+
+2. Requirements                                      *toggle-bool-requirements*
+
+What additional programs are required to run the plugin
+
+3. Usage                                                    *toggle-bool-usage*
+
+How to use the plugin. What functions does it give the user?
+
+4. Licence                                                *toggle-bool-licence*
+
+This is open source make sure to include a licence
