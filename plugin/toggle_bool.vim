@@ -11,7 +11,7 @@ python sys.path.append(vim.eval('expand("<sfile>:h")'))
 function! TemplateExample()
 python << endOfPython
 
-from toggle_bool import toggle_bool_example
+from toggle_bool import toggle_bool_value
 
 # get word under cursor
 wordUnderCursor = vim.eval('expand("<cword>")')
