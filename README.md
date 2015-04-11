@@ -5,10 +5,10 @@ Vim plugin to toggle boolean values.
 
 ## List of boolean values supported
 
-false <-> true
-yes <-> no
-on <-> off
-0 <-> 1
+`false <-> true`
+`yes <-> no`
+`on <-> off`
+`0 <-> 1`
 
 
 ## Installation
