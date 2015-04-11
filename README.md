@@ -1,5 +1,16 @@
 # toggle-bool
 
+Vim plugin to toggle boolean values.
+
+
+## List of boolean values supported
+
+false <-> true
+yes <-> no
+on <-> off
+0 <-> 1
+
+
 ## Installation
 
 Use your plugin manager of choice.
@@ -16,7 +27,15 @@ Use your plugin manager of choice.
   - Add `Plug 'https://github.com/sagarrakshe/toggle-bool'` to .vimrc
   - Run `:PlugInstall`
 
+
+## Usage
+
+By default the key mapping is `<leader>r`. When cursor is on the word which you
+want to toggle, press `<leader>r` or you can call `:ToggleBool`.
+
+
 ## Todo
 
-1. Write a plugin
-2. Write documentation
+1. When word is replaced with the toggled value, it eats leading and trailing
+   spaces.
+2. Support more for more values and logical operators.
