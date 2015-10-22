@@ -21,7 +21,7 @@ if len(wordUnderCursor):
   toggleValue = toggle_bool_value(wordUnderCursor)
 
   # replace the current word with new toggled value
-  vim.command('normal caw%s' % toggleValue)
+  vim.command('normal viwc%s' % toggleValue)
   vim.command('normal b')
 
 endOfPython
