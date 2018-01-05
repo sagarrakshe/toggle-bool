@@ -30,9 +30,6 @@ Use your plugin manager of choice.
 
 ## Usage
 
-By default the key mapping is `<leader>r`. When cursor is on the word which you
-want to toggle, press `<leader>r` or you can call `:ToggleBool`.
-
 To invoke you need to call `:ToggleBool`. You can map accordingly.
 For example, to map to `<leader>r` you need to add following to your *.vimrc*
 
