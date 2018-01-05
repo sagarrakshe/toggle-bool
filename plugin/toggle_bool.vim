@@ -33,4 +33,4 @@ endfunction
 command! ToggleBool call TemplateExample()
 
 " key mapping
-noremap <leader>r :ToggleBool<CR>
+" noremap <leader>r :ToggleBool<CR>
