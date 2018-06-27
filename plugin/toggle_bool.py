@@ -5,6 +5,8 @@ values = {
     '1': '0',
     'enable': 'disable',
     'enabled': 'disabled',
+    'before': 'after',
+    'first': 'last',
 }
 
 
