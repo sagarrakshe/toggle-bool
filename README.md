@@ -15,18 +15,16 @@ Vim plugin to toggle boolean values.
 
 Use your plugin manager of choice.
 
-- [Pathogen](https://github.com/tpope/vim-pathogen)
-  - `git clone https://github.com/sagarrakshe/toggle-bool ~/.vim/bundle/toggle-bool`
-- [Vundle](https://github.com/gmarik/vundle)
-  - Add `Bundle 'https://github.com/sagarrakshe/toggle-bool'` to .vimrc
-  - Run `:BundleInstall`
-- [NeoBundle](https://github.com/Shougo/neobundle.vim)
-  - Add `NeoBundle 'https://github.com/sagarrakshe/toggle-bool'` to .vimrc
-  - Run `:NeoBundleInstall`
 - [vim-plug](https://github.com/junegunn/vim-plug)
   - Add `Plug 'https://github.com/sagarrakshe/toggle-bool'` to .vimrc
   - Run `:PlugInstall`
 
+
+put this to your .vimrc
+```
+let g:python3_host_prog = "F:\\python3.9\\python.exe"  " Your own path. ToggleBool needs this
+let g:python_host_prog = "F:\\python3.9\\python.exe"   " ToggleBool needs this
+```
 
 ## Usage
 
