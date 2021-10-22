@@ -1,3 +1,6 @@
+The original code use python instead of python3, causing something annoying.  
+Since I don not use python2, I just modify python to python3, not caring python2 projects
+
 # toggle-bool
 
 Vim plugin to toggle boolean values.
@@ -23,7 +26,6 @@ Use your plugin manager of choice.
 put this to your .vimrc
 ```
 let g:python3_host_prog = "F:\\python3.9\\python.exe"  " Your own path. ToggleBool needs this
-let g:python_host_prog = "F:\\python3.9\\python.exe"   " ToggleBool needs this
 ```
 
 ## Usage
