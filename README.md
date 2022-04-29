@@ -9,6 +9,9 @@ Vim plugin to toggle boolean values.
 - yes <-> no 
 - on <-> off
 - 0 <-> 1
+- enable(d) <-> disable(d)
+- first <-> last
+- before <-> after
 
 
 ## Installation

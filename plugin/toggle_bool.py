@@ -3,6 +3,10 @@ values = {
     'on': 'off',
     'yes': 'no',
     '1': '0',
+    'enable': 'disable',
+    'enabled': 'disabled',
+    'before': 'after',
+    'first': 'last',
 }
 
 
